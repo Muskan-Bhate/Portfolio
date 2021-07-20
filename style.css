@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.navbar{
+	background: #362624;
+}
+.head-img{
+    width:250px;
+    height:200px;
+}
+.contact,.font,.about,.skills,.skills-quote,.projects{
+    font-family: 'Satisfy', cursive;
+}
+.about,.projects{
+    color:rgb(197, 165, 128);
+}
+.nav{
+   z-index:3;
+}
+footer{
+   margin-bottom:-16px;
+}
+.link-btn{
+   color: black;
+   border-radius: 4px;
+   width: 20px;
+   padding: 3px;
+}
+.link-primary{
+   background-color: rgb(197, 165, 128);
+}
+.link-btn:hover{
+   color:black;
+   padding: 2px;
+}
+.link-secondary{
+   border: 3px solid rgb(197, 165, 128);
+}
+
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link{
+	color:rgb(197, 165, 128);
+}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link {
+	color: rgb(197, 165, 128);
+}
+.nav-link.active, .nav-link:focus {
+	color:rgb(167, 140, 111);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: rgb(161, 135, 104);
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.navbar-nav a {
+		font-size: 20px;
+		font-weight: normal;
+	}
+}
+.w-100 {
+	height: 100vh;
+}

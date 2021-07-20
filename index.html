@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="bg-dark">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top fs-2">
+
+      <button aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+        data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span
+          class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active pe-4">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item pe-4">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item pe-4">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item pe-4">
+            <a class="nav-link" href="#projects">Project</a>
+          </li>
+          <li class="nav-item pe-4">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+    <div class="text-center mt-5 pt-4" style="background-color: rgb(197, 165, 128)">
+      <img class="mt-3 head-img" id="home" src="/code.png" />
+      <p class="font fs-1 pb-3">"I just want to make <b>beautiful things</b>, even if nobody cares."</p>
+    </div>
+    <div class="card mb-3" id="about" style="max-width: 580px; margin: auto; border: 3px solid rgb(197, 165, 128);">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="coder.svg" class="img-fluid rounded-start" alt="Muskan Bhate" style="width:200px;height:200px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h2 class="card-title about fw-bold">About me</h2>
+            <p class="card-text">Hello, I am <b>Muskan Bhate</b>. I love to develop websites and web apps. Currently, I
+              am
+              pursuing bachelor's degree in computer science from <b>G.H. Raisoni Institute of Information
+                Technology</b>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+   <div class="mt-4"  id="skills" style="background-color:rgb(197, 165, 128);">
+      <div class="pt-4 fw-bolder fs-2 skills text-center">Skills</div>
+      <div class="pb-4 fw-bold fs-4 skills-quote text-center">"Whatever your needs are, I am ready to take all the
+        challenges"</div>
+      <div class="container">
+        <div class="row fw-bold">
+          <div class="col">
+            <ul>
+              <li class="pb-2">Html</li>
+              <li class="pb-2">CSS</li>
+              <li class="pb-2">Javascript</li>
+              <li>React</li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li class="pb-2">Node.js</li>
+              <li class="pb-2">Bootstrap</li>
+              <li class="pb-2">Git</li>
+              <li>Github</li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li class="pb-2">PL/SQL</li>
+              <li class="pb-2">C</li>
+              <li class="pb-2">C++</li>
+              <li>Python</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+   <div class="projects fs-2 text-center mt-4" id="projects">Projects</div>
+    <div class="container">
+      <div class="row m-auto">
+        <div class="col">
+          <div class="card mt-3" style="width: 20rem; border: 4px solid rgb(197, 165, 128)">
+            <img src="memorygame.gif" class="card-img-top" alt="MemoryGame">
+            <div class="card-body text-center">
+              <h2>Memory Game</h2>
+              <small class="fw-bold">June 2021</small>
+              <p class="card-text">A fun memory game devoloped using html, css and javascript.</p>
+              <ul class="list-inline mt-4 pb-4">
+                <li class="list-inline-item pe-5">
+                  <a href="https://fun-memory-game.netlify.app" class="link-btn link-primary fw-bold"
+                    style="text-decoration: none;">Play game</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://github.com/Muskan-Bhate/memory-game" class="link-btn link-secondary fw-bold"
+                    style="text-decoration: none;">View Source</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-3" style="width: 20rem; border: 4px solid rgb(197, 165, 128)">
+            <img src="travelgram.jpg" class="card-img-top" alt="TravelGram">
+            <div class="card-body text-center">
+              <h2>Travelgram</h2>
+              <small class="fw-bold">December 2020</small>
+              <p class="card-text">A web app developed using Reactjs which helps you to explore some best places around
+                the world.</p>
+              <ul class="list-inline mt-4">
+                <li class="list-inline-item pe-5">
+                  <a href="https://xezhr.csb.app/" class="link-btn link-primary fw-bold"
+                    style="text-decoration: none;">Explore Places</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://github.com/Muskan-Bhate/Tourist-places-recommendation-app"
+                    class="link-btn link-secondary fw-bold" style="text-decoration: none;">View Source</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-3" style="width: 20rem; border: 4px solid rgb(197, 165, 128)">
+            <img src="emojis.jpg" class="card-img-top" alt="Emopreter" style="height: 231px; width: 19.5rem;">
+            <div class="card-body text-center">
+              <h2>Emopreter</h2>
+              <small class="fw-bold">December 2020</small>
+              <p class="card-text">A web app developed using Reactjs which helps you to find out meanings of emojis.</p>
+              <ul class="list-inline mt-4">
+                <li class="list-inline-item pe-5">
+                  <a href="https://3jg0d.csb.app/" class="link-btn link-primary fw-bold"
+                    style="text-decoration: none;">See Project</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://github.com/Muskan-Bhate/emojis-interpreter" class="link-btn link-secondary fw-bold"
+                    style="text-decoration: none;">View Source</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row m-auto">
+        <div class="col">
+          <div class="card mt-3" style="width: 20rem; border: 4px solid rgb(197, 165, 128)">
+            <img src="minion.jpg" class="card-img-top" alt="MinionTranslator" style="width:19.5rem; height: 231px">
+            <div class="card-body text-center">
+              <h2>Minion Translator</h2>
+              <small class="fw-bold">December 2020</small>
+              <p class="card-text">A fun translator developed using javascript which translates english language into
+                banana speak.</p>
+              <ul class="list-inline mt-4">
+                <li class="list-inline-item pe-5">
+                  <a href="https://bananaspeak-muskan.netlify.app/" class="link-btn link-primary fw-bold"
+                    style="text-decoration: none;">See Translator</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://github.com/Muskan-Bhate/Minion-Translator" class="link-btn link-secondary fw-bold"
+                    style="text-decoration: none;">View Source</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-3" style="width: 20rem; border: 4px solid rgb(197, 165, 128)">
+            <img src="sindarin.png" class="card-img-top" alt="SindarinTranslator" style="width:19.5rem; height: 231px">
+            <div class="card-body text-center">
+              <h2>Sindarin Translator</h2>
+              <small class="fw-bold">December 2020</small>
+              <p class="card-text">A fun translator developed using javascript which translates english language into
+                sindarin speak.</p>
+              <ul class="list-inline mt-4">
+                <li class="list-inline-item pe-5">
+                  <a href="https://sindarintranslator.netlify.app/" class="link-btn link-primary fw-bold"
+                    style="text-decoration: none;">See Translator</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://github.com/Muskan-Bhate/Sindarin-Translator" class="link-btn link-secondary fw-bold"
+                    style="text-decoration: none;">View Source</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-3" style="width: 20rem; border: 4px solid rgb(197, 165, 128)">
+            <img src="indianquiz.jpg" class="card-img-top" alt="Indian Quiz">
+            <div class="card-body text-center">
+              <h2>Incredible India</h2>
+              <small class="fw-bold">November 2020</small>
+              <p class="card-text">A CLI app built using Nodejs which checks your knowledge about Indian culture.</p>
+              <ul class="list-inline mt-4">
+                <li class="list-inline-item pe-5">
+                  <a href="https://repl.it/@MuskanBhate/indianculturequiz-2?embed=1&output=1#index.js"
+                    class="link-btn link-primary fw-bold" style="text-decoration: none;">Play Quiz</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://github.com/Muskan-Bhate/Project-2" class="link-btn link-secondary fw-bold"
+                    style="text-decoration: none;">View Source</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <footer>
+      <div class="text-center mt-5" style="background-color: rgb(197, 165, 128);">
+        <h2 class="contact pt-4" id="contact">Connect with me through...</h2>
+        <ul class="list-inline mt-4 pb-4">
+          <li class="list-inline-item pe-5">
+            <a href="mailto: mbhate2@gmail.com" style="text-decoration: none; color:black;"><i class="fa fa-envelope"
+                style="font-size:30px"></i></a>
+          </li>
+          <li class="list-inline-item pe-5">
+            <a href="https://github.com/Muskan-Bhate" style="text-decoration: none; color:black;"><i
+                class="fa fa-github" style="font-size:30px"></i></a>
+          </li>
+          <li class="list-inline-item pe-5">
+            <a href="https://www.linkedin.com/in/muskan-bhate" style="text-decoration: none; color:black;"><i
+                class="fa fa-linkedin" style="font-size:30px"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/muskan_z_19" style="text-decoration: none; color:black;"><i
+                class="fa fa-instagram" style="font-size:30px"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+    </script>
+</body>
+
+</html>
